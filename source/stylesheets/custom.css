@@ -1,0 +1,261 @@
+@charset "utf-8";
+
+/*=====Navigation Bar=====*/
+
+.navbar-inverse {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 0px;
+  border: 0px;
+}
+
+.navbar-inverse .navbar-nav a {
+  color: #f6f6f6 !important;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav a:hover {
+  color: #643692 !important;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  background-color: transparent;
+}
+
+/*=====Body===============*/
+
+body {
+  background: #1E1E1E;
+  text-align: center;
+  font-family: sans-serif;
+  font-color: #f6f6f6;
+}
+
+h1 {
+  color: rgba(0, 0, 0, .3);
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0; }
+
+/*=====Thumbnails=========*/
+
+.thumbnail {
+  border: 5px solid #303030;
+}
+
+.thumbnail:hover { 
+  -moz-box-shadow: 0 0 20px #fff; 
+  -webkit-box-shadow: 0 0 20px #fff; 
+  box-shadow: 0 0 20px #fff; 
+}
+
+
+/*=====Home Page==========*/
+
+/*#home-img {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+
+#home-img img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  z-index: -1;
+}*/
+
+/*@media screen and (max-width: 1024px) { 
+   #home-img img {
+    left: 50%;
+    margin-left: -512px;
+  }
+} */
+
+.home-text h1 {
+  position: absolute;
+  top: 300px;
+}
+
+.home-text h2 {
+  position: absolute;
+  top: 320px;
+}
+
+.home-text p {
+  position: absolute;
+  top: 380px;
+}
+
+/*=====Main Event Page====*/
+
+.main-event-contents {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.main-event-contents h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.main-event-contents p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+
+/*=====Course Page========*/
+
+.course-contents {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.course-contents h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.course-contents p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+/*=====Recipe Image=======*/
+
+/*.recipe-image img {
+  width: 100%;
+  max-height: 100%
+}
+
+.recipe-image {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: inherit;
+  background: #1E1E1E;
+  max-height: 100%;
+}
+
+.container .recipe-image,
+.container-fluid .recipe-image {
+  border-radius: 0px;
+}
+.recipe-image .container {
+  max-width: 100%;
+  position: relative;
+  padding-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .recipe-image {
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+  .container .recipe-image,
+  .container-fluid .recipe-image {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}*/
+
+
+/*=====Recipe Details=====*/
+
+.recipe-details {
+  background-color: #1e1e1e;
+}
+
+.recipe-details h1 {
+  font-family: 'Shift', sans-serif;
+  font-size: 16px;
+  color: #f6f6f6;
+  padding-top: 20px;
+  padding-bottom:20px;
+}
+
+.recipe-details h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f6f6f6;
+}
+
+.recipe-details a {
+  color: #643692;
+}
+
+.recipe-details p {
+  font-family: 'Shift', sans-serif;
+  font-size: 12px;
+  color: #f6f6f6;
+}
+
+
+/*=====Recipe Info========*/
+
+.recipe-info {
+  background-color: #1e1e1e;
+  text-align: left;
+  padding-bottom: 30px;
+}
+
+.recipe-info h3 {
+  font-family: 'Shift', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #f6f6f6;
+}
+
+.recipe-info a {
+  color: #00b0ff;
+}
+
+.recipe-info p {
+  font-family: 'Shift', sans-serif;
+  font-size: 13px;
+  color: #f6f6f6;
+}
+
+.recipe-info li {
+  font-family: 'Shift', sans-serif;
+  font-size: 14px;
+  color: #f6f6f6;
+}
+
+.container .recipe-info,
+  .container-fluid .recipe-info {
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+
+/*=====Footer=============*/
+
+#footer-icons {
+  font-size: 30px;
+  font-color: #191919;
+  position: relative;
+  left: auto;
+  right: auto;
+}
+
+#footer-copyright {
+  font-size: 14px;
+  position: relative;
+  left: auto;
+  right: auto;
+}
